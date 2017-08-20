@@ -1,0 +1,4 @@
+For CodeCoverage, we are using Istanbul
+
+to run individually, run the following command in cli
+gulp istcov

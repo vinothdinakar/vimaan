@@ -1,0 +1,7 @@
+{
+  "name": "ParentAppApi",
+  "version": "0.0.0",
+  "description": "API Layer for ParentApp Web and Mobile.",
+  "title": "Myskoo Parent App Api Layer",
+  "url" : "http://localhost:3000/api/v1"
+}

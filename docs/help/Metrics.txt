@@ -1,0 +1,11 @@
+Metrics logs can be configured to push to Mongo or Splunk through configuration file
+
+Whenever we need to add Metrics
+1) include metricsLogger file
+    var metricsLogger = require(path.resolve('./libs/metricsLogger'));
+2) call the metrics api function
+    metricsLogger.addMetrics(fid, {
+        date: "",
+        unitAddress: ""
+    });
+    we can add whatever property we need for future analysing

@@ -1,0 +1,40 @@
+{
+  "name": "Vimaan",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server",
+    "startOnWindows": "node server env=dev",
+    "startOnLinux": "node server env=dev",
+    "mochaTest": "set NODE_ENV=dev gulp mochaTest"
+  },
+  "dependencies": {
+    "apidoc": "0.17.5",
+    "body-parser": "~1.17.1",
+    "chalk": "^1.1.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "glob": "~7.0.0",
+    "https": "1.0.0",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "7.3.0",
+    "lodash": "^4.6.1",
+    "mongoose": "~4.4.8",
+    "morgan": "~1.8.1",
+    "q": "1.5.0",
+    "serve-favicon": "~2.4.2",
+    "winston": "^2.2.0",
+    "winston-daily-rotate-file": "1.4.6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-eslint": "3.0.1",
+    "gulp-istanbul": "^1.1.1",
+    "gulp-live-server": "0.0.30",
+    "gulp-mocha": "^4.3.0",
+    "gulp-util": "^3.0.8",
+    "gulp-exit": "0.0.2",
+    "mocha": "3.3.0"
+  }
+}

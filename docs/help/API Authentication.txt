@@ -1,0 +1,5 @@
+For API which needs authentication
+1) call /authenticate - the response will have a token
+2) For other api which needs authentication, include file
+    var tokenAuthentication = require(path.resolve('./libs/tokenAuthentication'));
+3) Client needs to include token with every other request as a part of body or header - 'x-access-token'

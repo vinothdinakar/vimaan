@@ -1,0 +1,12 @@
+To start server in local dev
+For Windows machine
+    node server env=dev.windows
+
+For Linux machine
+    node server env=dev.linux
+
+
+To start server in cloud dev
+env - dev.gc
+Use forever to start the server
+sudo forever start forever.dev.gc.json

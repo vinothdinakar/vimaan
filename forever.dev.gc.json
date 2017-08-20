@@ -1,0 +1,9 @@
+{
+  "uid": "parentAppApi",
+  "append": true,
+  "watch": true,
+  "script": "./server.js",
+  "logFile": "/Applications/appLogs/forever.txt",
+  "sourceDir": "./",
+  "command": "node server.js env=dev.gc"
+}

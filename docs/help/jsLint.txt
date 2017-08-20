@@ -1,0 +1,6 @@
+For JS Lint, we are using esLint library
+
+To run separately
+go to base folder in command prompt
+type -> gulp jsLint
+

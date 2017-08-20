@@ -1,0 +1,26 @@
+We are using apidocs package of node to create the Api Docs Generator
+https://www.npmjs.com/package/apidoc
+
+Add comments for all api
+Whenever a new api is added make sure we are adding the below given commented section above the api routes
+
+/**
+ * @api {get} /user/:id Request User information
+ * @apiName GetUser
+ * @apiGroup User
+ *
+ * @apiParam {Number} id Users unique ID.
+ *
+ * @apiSuccess {String} firstname Firstname of the User.
+ * @apiSuccess {String} lastname  Lastname of the User.
+ */
+
+
+Steps to generate the ApiDocs
+1) Go to the command prompt
+2) Navigate to the project folder
+3) Run the following command : apidoc -i modules/ -o docs/apidocs
+3) Url to access with default port - http://localhost:3000/api
+
+TODO: above steps will be added to gulp tasks
+

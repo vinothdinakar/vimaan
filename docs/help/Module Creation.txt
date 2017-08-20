@@ -1,0 +1,7 @@
+We can create a initial set of module using the following commands
+
+1) Goto base folder
+2) run the following command
+    node libs/scripts/module -n <module name>
+
+3) This will create a initial set of controllers, routes and test files
