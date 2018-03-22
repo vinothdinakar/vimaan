@@ -1,4 +1,4 @@
-Starter for NodeJs App
+Starter for NodeJs App with following packages integrated.
 
 Express<br>
 Logger<br>
@@ -9,3 +9,4 @@ apidoc<br>
 chalk<br>
 esLint<br>
 mocha<br>
+Config setup for different environment<br>
